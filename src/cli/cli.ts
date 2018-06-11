@@ -6,6 +6,7 @@ import { addInferredOptions, LiveTasks } from './tasks';
 import { typescriptStarter } from './typescript-starter';
 import { getIntro, hasCLIOptions, TypescriptStarterUserOptions } from './utils';
 
+console.log('JUST EXECUTED THE PACKAGE!!!!!');
 (async () => {
   const argInfo = await checkArgs();
   const userOptions: TypescriptStarterUserOptions = hasCLIOptions(argInfo)

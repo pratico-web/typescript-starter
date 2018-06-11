@@ -46,7 +46,9 @@ export async function typescriptStarter(
   const pkgPath = join(projectPath, 'package.json');
 
   const keptDevDeps: ReadonlyArray<string> = [
-    'ava',
+    'jest',
+    'ts-jest',
+    '@types/jest',
     'codecov',
     'cz-conventional-changelog',
     'gh-pages',
