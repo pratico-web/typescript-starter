@@ -1,6 +1,6 @@
 {
-  "name": "@pratico/typescript-starter",
-  "version": "0.0.3",
+  "name": "pratico-typescript-starter",
+  "version": "0.0.4",
   "description": "A typescript starter for building javascript libraries and projects",
   "bin": {
     "pratico-typescript-starter": "./bin/typescript-starter"
