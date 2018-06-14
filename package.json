@@ -1,6 +1,6 @@
 {
   "name": "pratico-typescript-starter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A typescript starter for building javascript libraries and projects",
   "bin": {
     "pratico-typescript-starter": "./bin/typescript-starter"
@@ -47,7 +47,7 @@
     "doc:publish": "gh-pages -m \"[ci skip] Updates\" -d build/docs",
     "version": "standard-version",
     "reset": "git clean -dfx && git reset --hard && npm i",
-    "clean": "trash build test",
+    "clean": "rm -rf build test",
     "all": "run-s reset test cov:check doc:html",
     "prepare-release": "run-s all version doc:publish"
   },
