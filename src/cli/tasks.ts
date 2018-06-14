@@ -119,7 +119,7 @@ export const initialCommit = (spawner: ExecaStatic) => async (
     [
       'commit',
       '-m',
-      `Initial commit\n\nCreated with bitjson/typescript-starter@${hash}`
+      `Initial commit\n\nCreated with pratico-web/typescript-starter@${hash}`
     ],
     opts
   );
