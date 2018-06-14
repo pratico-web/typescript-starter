@@ -8,7 +8,7 @@
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/bitjson/typescript-starter",
+  "repository": "https://github.com/pratico-web/typescript-starter",
   "license": "MIT",
   "keywords": [
     "typescript",
